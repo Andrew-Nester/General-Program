@@ -43,4 +43,10 @@
 ** expoentiate
 % modulus
 
-// JS will work like a  scientific calculator and apply OrderOfOperations Modulus happens after division but before addition
+// JS will work like a  scientific calculator and apply OrderOfOperations Modulus happens after division but before addition;
+//Variable rules
+// letters, digits and _ or $
+//can't start with a number
+//Cant name them as fuctions
+*/
+
