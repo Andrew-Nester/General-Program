@@ -37,3 +37,17 @@ console.log (` 2+3 ${2+3}`)
 //Many programming launguages have a `char` data type reperesenting a single character
 // Javascript doesn't
 
+/*
+4. Boolean a true or false statement can only hold true or false values
+
+5. Null is a special data type containing only on Null value
+Null meaning nothing or value unknown
+
+6. Undefined is another special data type containing only one "undefined" value
+undefined in Javascript means that the value hasn't beem assigned
+
+*/
+//there are two more but not in this class
+
+ //the typeof function will tell you the datatype of the variable
+ console.log(typeof (undefined))
