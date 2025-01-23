@@ -50,4 +50,4 @@ undefined in Javascript means that the value hasn't beem assigned
 //there are two more but not in this class
 
  //the typeof function will tell you the datatype of the variable
- console.log(typeof (undefined))
+ console.log(typeof (439843948n))
