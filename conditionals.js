@@ -40,3 +40,14 @@ a >= b
 if (3<5){
     console.log( "3 is less than 5")
 }
+
+if (7<5){
+    console.log(" 7 is less than 5")
+} else {
+    console.log ("7 isn't less than 5")
+}
+
+// a test for equaliy 
+let testNumber = 6
+
+if (testNumber)
