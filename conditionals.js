@@ -1,9 +1,10 @@
+
 //COnditional notes in JS
 
 //In conditional statement is just an if/then
 // there are many more complex examples, but all of them are based on if a condition is true and responding
 // rely on some form of comparison
-
+/*
 /*
 comparisons in JS look like math equations to an extent
 a < b is an example
@@ -63,7 +64,7 @@ a >= b
 // better approaches
 
 // if - else if - else
-
+/*
 let testGrade = 48;
 if(testGrade >= 90){
     console.log(" you get an A");
@@ -75,4 +76,90 @@ if(testGrade >= 90){
     console.log (" you get a D");
 } else{
     console.log( "you get an F");
+*/ 
+//you must restate ariable every time
+//no x = 35 || = 15
+//insead x = 35 || x = 15
+
+/* JS uses truthy and falsey values
+A truthy value will be treadted the same as true
+Following are truthy
+true
+any not empty string (this includes "false")
+any number except 0
+arrays functions and objects
+
+Following are falsey
+fasle
+empty strings
+the number 0
+null
+undefined
+not a number
+*/
+/*
+let testVariable = null && false && 0;
+console.log (testVariable)
+
+// first truthy number 
+// if all are falsey reply the last or
+
+alert("no print")
+
+// and finds the first falsey instead of the first truthey value
+
+console.log ( true && true && true && true);
+console.log (true && 0 && true && true);
+console.log (true && "false" && 5 && 3.14);
+*/
+
+// precedence  ( && is higer than ||)
+
+// This is a NONO    vvvvvvvvvvvvvvv
+// some ppl use && instead of if
+
+// special not rules (!)
+// takes a single value and does the following
+//1. coverts to a boolean
+//2. returns the opposite
+
+//if we hvae many possible test cases 
+// switch
+/*
+let day = 5
+switch(new Date().getDay()){
+    case 0:
+        day = "sunday"
+        break
+    case 1:
+        day = "Monday"
+        break
+    case 2: 
+        day = "tuesday"
+        break
+    case 3:
+        day = "wednesday"
+        break
+    case 4: 
+        day = "thursday"
+        break
+    case 5:
+        day = "friday"
+        break
+    case 6:
+        day = "saturday"
+        break
+    default:
+        console.log("not a date")
 }
+console.log (day)
+*/
+
+// let age = 3
+// if (!(age >= 14 && age <= 90)){
+//     console.log ("you are of a proper age for this establishment")
+// }
+// The ternary operator allows for simpe and consise if else operaions
+// condition ? do this : do this instead
+
+4==6 ? console.log("a"): console.log("b")
