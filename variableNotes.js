@@ -50,4 +50,4 @@
 //Cant name them as fuctions
 */
 
-console.log("23"+"24")
+// console.log("23"+"24")
