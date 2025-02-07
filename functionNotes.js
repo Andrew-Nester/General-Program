@@ -26,7 +26,7 @@ functionName(argument1, argument2)
 //what happens in a function is invisible to the oustide world
 //local scope- within a funtion
 //global scope- all of the main program
-
+/*
 let test1 = 1
 let test2 = 5
 
@@ -41,7 +41,50 @@ console.log(add1(test2));
 // to do this when you make the parameter you ca assign a default value to it
 
 function greetings(name = "Andrew"){
-    console.log (` hello ${name}`)
+    console.log (` hello ${name}`);
 }
-greetings ("mr smith")
-greetings ()
+greetings ("mr smith");
+greetings ();
+
+// anon function
+// function uses another function as a parameter
+// functin wo a name
+
+(function (){
+    alert("anon")
+});
+
+// actual ex of how this is usable
+
+*/
+
+// // an example to examine scope
+// let x = 1;
+// function a() {
+//     let y = 2;
+//     output(y);
+// }
+
+// function b() {
+//     let z = 3;
+//     output(z);
+// }
+
+// function output(value){
+//     console.log(` value = ${value}`);
+// }
+
+// output(x);
+// a();
+// b();
+ 
+
+//funcitons can hvae return alues
+//function sends back to the globbal scope
+//some don't
+function randomLessThan(num){
+    let x = (Math.floor((Math.random)() *num))
+    console.log (x)
+}
+
+randomLessThan(999)
