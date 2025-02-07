@@ -85,6 +85,12 @@ greetings ();
 function randomLessThan(num){
     let x = (Math.floor((Math.random)() *num))
     console.log (x)
+
 }
 
-randomLessThan(999)
+// to make a function interact with somehting else you need a return value
+
+function fn(){
+    fn();
+}
+fn();
