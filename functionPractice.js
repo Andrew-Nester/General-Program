@@ -5,6 +5,10 @@ function multiply(num1, num2){
 }
 multiply (9039,89)
 
+//4
+//the function will act differently w/o the else becasue it would confirm if parents allowed you even
+// if you replied that you were above the ge of eightteen 
+
 //6
 
 function lower(num1, num2) {
