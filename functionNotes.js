@@ -90,7 +90,3 @@ function randomLessThan(num){
 
 // to make a function interact with somehting else you need a return value
 
-function fn(){
-    fn();
-}
-fn();
