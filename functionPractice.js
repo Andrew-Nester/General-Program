@@ -24,9 +24,13 @@ lower (99898, 2)
 
 function exponentiate(num1, num2) {
     x = num1 ** num2
-    BigInt(x)
     console.log(x)
+    console.log ("help me!!")
 }
 
-exponentiate(89,89)
+let y = 0
+while (y<200){
+    exponentiate (y,y)
+    y = y + 0.0001
+}
 
