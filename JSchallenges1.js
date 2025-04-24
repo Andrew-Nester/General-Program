@@ -77,3 +77,33 @@ function mario(){
     
     }
 }
+
+//2
+function square(){
+    let square = [
+        [], [], [], [], [], [], [], [], [], []
+    ]
+    let makingnumber = 1
+    let dimensions = +prompt("What should the side lengths for the square be (max 10)")
+    for(let rows = 0; rows < dimensions; rows++){
+        for(let rowinputs = 0; rowinputs < dimensions; rowinputs++){
+            square[rows][rowinputs] = +prompt(`what should the ${makingnumber} be `)
+            makingnumber = makingnumber + 1
+
+        }
+    }
+    console.log (square)
+    let part1 = 0
+    let part2 = 0
+    for(let section = 0; section < dimensions; section++){
+        part1 = part1 + Number(square[section][section])
+    }
+    for(let sectionother = 0; sectionother < dimensions; sectionother++){
+        part2 = part2 + Number(square[sectionother][dimensions-1-sectionother])
+    }
+    total = (part1-part2)
+    if (total < 0){
+        total = total*-1
+    }
+    console.log(total)
+}
